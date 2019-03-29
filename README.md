@@ -1,6 +1,12 @@
-## RecipesApp
+# RecipesApp
 
 A Server Side Rendered web application using Django and Nuxt.js. 
+
+## Screenshots
+<p align="center">
+    <img src="client/static/screenshots/ss_2.png" width="750px" height="300px"/>
+    <img src="client/static/screenshots/ss_4.png" width="750px" height="300px"/>
+</p> 
 
 ## Requirements
 * [Python3](https://www.python.org/download/releases/3.0/)

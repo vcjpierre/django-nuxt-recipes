@@ -1,13 +1,14 @@
-import pkg from './package'
+const pkg = require('./package')
 
-export default {
+
+module.exports = {
   mode: 'universal',
 
   /*
   ** Headers of the page
   */
   head: {
-    title: pkg.name,
+    title: 'Nuxt Recipes',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -26,8 +27,7 @@ export default {
   /*
   ** Global CSS
   */
-  css: [
-  ],
+ css: ['~/assets/css/transitions.css'], // update this
 
   /*
   ** Plugins to load before mounting the App
@@ -38,10 +38,16 @@ export default {
   /*
   ** Nuxt.js modules
   */
-  modules: [
+  modules: [,
     // Doc: https://bootstrap-vue.js.org/docs/
     'bootstrap-vue/nuxt',
+    '@nuxtjs/axios' // add this
   ],
+
+  // add this Axios object
+  axios: {
+    baseURL: "http://localhost:8000/api" // add this
+  },
 
   /*
   ** Build configuration
@@ -51,6 +57,7 @@ export default {
     ** You can extend webpack config here
     */
     extend(config, ctx) {
+
     }
   }
 }
