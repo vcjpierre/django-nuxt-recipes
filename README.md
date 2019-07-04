@@ -45,10 +45,17 @@ Navigate into the backend directory
 cd api 
 ```
 
+Make migrations
+``` 
+python manage.py migrate
+```
+
 Start the backend server 
 ``` 
 python manage.py runserver 
 ```
+
+Go to ``` http://localhost:8000/api/ ```
 
 Then open a new terminal and navigate into the frontend directory 
 ``` 
