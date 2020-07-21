@@ -15,7 +15,7 @@ A Server Side Rendered web application using Django and Nuxt.js.
 
 ## Built With
 
-* [Python 3.7.4](https://www.python.org/) - A programming language that lets you work quickly and integrate systems more effectively.
+* [Python 3.8.2](https://www.python.org/) - A programming language that lets you work quickly and integrate systems more effectively.
 * [Django](http://djangoproject.org/) - A high-level Python Web framework that encourages rapid development and clean, pragmatic design.
 * [Nuxt](https://nuxtjs.org/) - Nuxt.js is a minimal framework for creating Vue.js applications with server side rendering, code-splitting, hot-reloading, static generation and more.
 
