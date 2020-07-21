@@ -9,7 +9,7 @@ A Server Side Rendered web application using Django and Nuxt.js.
 </p> 
 
 ## Requirements
-* [Python 3.7.4](https://www.python.org/downloads/release/python-374/)
+* [Python](https://www.python.org/downloads/)
 * [Pipenv](https://pypi.org/project/pipenv/)
 * [Npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/en/)
 
