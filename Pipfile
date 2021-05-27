@@ -11,4 +11,4 @@ django-rest-framework = "*"
 django-cors-headers = "*"
 
 [requires]
-python_version = "3.8.2"
+python_version = "3.9.5"
