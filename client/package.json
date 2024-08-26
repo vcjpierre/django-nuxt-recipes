@@ -15,7 +15,7 @@
     "bootstrap": "^4.5.0",
     "bootstrap-vue": "^2.15.0",
     "cross-env": "^5.2.1",
-    "nuxt": "^2.17.1"
+    "nuxt": "^3.13.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
